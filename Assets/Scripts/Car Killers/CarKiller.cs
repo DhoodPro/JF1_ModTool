@@ -139,7 +139,7 @@ public class CarKiller : MonoBehaviour
         else
         {
             rayCastSet();
-            followTarget(player, 1, 80);
+            followTarget(player, 1, drive.maximumSpeed);
         }
     }
     IEnumerator resetCol()
